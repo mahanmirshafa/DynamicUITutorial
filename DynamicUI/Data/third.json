@@ -1,0 +1,20 @@
+{
+    "items": [
+        {
+            "layout": "horizontal",
+            "cell": "banner",
+            "items": [
+                {
+                    "id": "1",
+                    "image": {
+                        "url": "https://lallahoriye.com/wp-content/uploads/2019/04/Product_Lg_Type.jpg"
+                    },
+                    "action": {
+                        "url": "dynamicuri:openProduct"
+                    }
+                }
+            ],
+            "header": null
+        }
+    ]
+}
