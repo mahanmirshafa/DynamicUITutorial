@@ -1,0 +1,16 @@
+//
+//  UICollectionViewCell+Reuse.swift
+//  DynamicUI
+//
+//  Created by Mahan Mirshafa on 11/9/21.
+//
+
+import Foundation
+import UIKit
+
+extension UICollectionViewCell {
+    
+    static public func reuseId() -> String {
+        String(describing: self.self)
+    }
+}
